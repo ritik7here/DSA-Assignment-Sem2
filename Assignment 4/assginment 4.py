@@ -142,11 +142,11 @@ if __name__ == "__main__":
     bst.inorder(root)
 
     root = bst.insert(root, 65)
-    print("\n\nDelete One Child (60):")
+    print("\nDelete One Child (60):")
     root = bst.delete(root, 60)
     bst.inorder(root)
 
-    print("\n\nDelete Two Children (30):")
+    print("\nDelete Two Children (30):")
     root = bst.delete(root, 30)
     bst.inorder(root)
 
